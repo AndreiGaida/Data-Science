@@ -25,6 +25,9 @@
 - total_area — площадь квартиры в квадратных метрах (м²)
 - total_images — число фотографий квартиры в объявлении
 
+## Используемые библиотеки
+pandas, numpy, matplotlib, seaborn
+
 ## Общий вывод
 В ходе исследовательского анализа данных были обработаны пропуски в столбцах: "ceiling_height", "floors_total", "living_area", "is_apartment", "kitchen_area", "balcony", "locality_name", "city_сenters_nearest". Также были исправлены некорректно введённые данные в "locality_name". В ходе предобработки данных были удалены или заменены медианным значением аномалии в столбцах:"ceiling_height", "total_area", "living_area", "kitchen_area", "floors_total", "rooms","last_price".
 
